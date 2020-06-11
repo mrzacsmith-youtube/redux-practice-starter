@@ -1,7 +1,7 @@
-import React from 'react';
-import PlayerList from './components/PlayerList'
-import PlayerForm from './components/PlayerForm'
-import './App.css';
+import React from "react";
+import PlayerList from "./components/PlayerList";
+import PlayerForm from "./components/PlayerForm";
+import "./App.css";
 
 const App = () => {
   return (
@@ -14,6 +14,6 @@ const App = () => {
       <PlayerList />
     </div>
   );
-}
+};
 
 export default App;
