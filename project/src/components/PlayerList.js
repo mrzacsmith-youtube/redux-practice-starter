@@ -14,9 +14,12 @@ const PlayerList = (props) => {
     <div>
       <h2>Soccer Player List</h2>
       <div className="card-container">
-        {props.player.map((player) => (
+        {props.players.map((player) => (
           <PlayerCard key={player.id} player={player} />
         ))}
+        {/* {/*} {props.player.map((player) => (
+          <PlayerCard key={player.id} player={player} />
+        ))} */}
       </div>
     </div>
   );

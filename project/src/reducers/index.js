@@ -5,7 +5,7 @@ import {
   POST_START,
   POST_SUCCESS,
   POST_FAILURE,
-} from "..actions/";
+} from "../actions/index";
 
 //1.create initial state
 const initialState = {
